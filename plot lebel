@@ -1,0 +1,16 @@
+plt.title
+plt.xlabel
+plt.ylabel
+plt.xtick
+plt.plot(x,y, linewidth = 8)
+plt.plot(x, y, color = "red")
+plt.grid(which="major", color='m', linestyle='-.', linewidth=0.5)
+
+'b' for blue
+'g' for green
+'r' for red
+'c' for cyan
+'m' for magenta
+'y' for yellow
+'k' for black
+'w' for white
