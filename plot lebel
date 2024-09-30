@@ -14,3 +14,22 @@ plt.grid(which="major", color='m', linestyle='-.', linewidth=0.5)
 'y' for yellow
 'k' for black
 'w' for white
+
+plt.figure(figsize=(6.4, 50,4))
+plt.bar(x, y)
+plt.barh(x, y)
+plt.hist(y, bins=5)
+plt.pie(y)
+
+plt.grid(which="major", color='m', linestyle='-.', linewidth=0.5)
+Solid line: linestyle='-' (this is the default) 
+Dashed line: linestyle='--' 
+Dotted line: linestyle=':' 
+Dash-dot line: linestyle='-.' 
+None (no line): linestyle='None' or linestyle=''
+
+plt.tight_layout()
+plt.show()
+
+path = 'C:\\Users\\christ\\Downloads\\' + 'q01.png'
+plt.savefig(path)
